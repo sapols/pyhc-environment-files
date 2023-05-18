@@ -29,6 +29,10 @@ Install CMake?
 
 ### Notes:
  - Shawn's environment is macOS 11.7.4 (Intel i7 processor) running Python v3.8.8
+ - Very recently added PyHC packages not included here:
+   - CCSDSPy
+   - space-packet-parser
+   - regularizePSF project  
 
 ### Ideas: 
 Similar to how Kamodo-CCMC has a few test lines to verify the installation:
