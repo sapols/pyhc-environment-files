@@ -1,5 +1,6 @@
 hapiclient
 kamodo
+git+https://github.com/nasa/Kamodo.git
 plasmapy
 pysat
 pyspedas
