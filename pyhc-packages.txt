@@ -33,7 +33,6 @@ ocbpy
 OMMBV
 pydarn
 pyflct
-pytplot
 pytplot-mpl-temp
 pyzenodo3
 reesaurora
