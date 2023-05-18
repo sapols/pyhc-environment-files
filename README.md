@@ -7,6 +7,13 @@ Repo with files trying to generate one virtual Python environment that can impor
 2. `pip install -r pyhc-packages-requirements.txt`
 3. `python3 import-test.py` 
 
+### Notes:
+#### Fixing ocbpy:
+##### Problem: 
+It's failing on trying to get SpacePy to load the CDF C library
+##### Solution: 
+Install CDF C library (see: https://spacepy.github.io/pycdf.html)
+
 ### Ideas: 
 Similar to how Kamodo-CCMC has a few test lines to verify the installation:
 
