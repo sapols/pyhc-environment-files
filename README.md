@@ -21,7 +21,7 @@ Install CDF C library (see: https://spacepy.github.io/pycdf.html / https://space
 ##### Problem: 
 "FileNotFoundError: CMake not available"
 ##### Solution: 
-Install CMake.
+Install CMake?
 ###### Shawn's steps:
  - `brew install cmake`
  - ??? (Still failed after running that command; giving up)
