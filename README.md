@@ -30,8 +30,8 @@ Install CMake?
 ### Notes:
  - Shawn's environment is macOS 11.7.4 (Intel i7 processor) running Python v3.8.8
  - Very recently added PyHC packages not included here:
-   - CCSDSPy
-   - space-packet-parser
+   - CCSDSPy (requirements already satisfied)
+   - space-packet-parser (would install bitstring-4.0.2)
    - regularizePSF project  
 
 ### Ideas: 
