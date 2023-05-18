@@ -15,7 +15,8 @@ It's failing on trying to get SpacePy to load the CDF C library
 Install CDF C library (see: https://spacepy.github.io/pycdf.html / https://spacepy.github.io/install_mac.html#install-mac-cdf)
 ###### Shawn's steps:
  - Download Mac binaries "CDF3_9_0-binary-signed.pkg" (from: https://spdf.gsfc.nasa.gov/pub/software/cdf/dist/latest-release/macosx/)
- - 
+ - Install via the installer
+ - Uncomment `import ocbpy` in `import-test.py` because it now works! :)
 
 ### Ideas: 
 Similar to how Kamodo-CCMC has a few test lines to verify the installation:
