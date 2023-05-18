@@ -12,7 +12,10 @@ Repo with files trying to generate one virtual Python environment that can impor
 ##### Problem: 
 It's failing on trying to get SpacePy to load the CDF C library
 ##### Solution: 
-Install CDF C library (see: https://spacepy.github.io/pycdf.html)
+Install CDF C library (see: https://spacepy.github.io/pycdf.html / https://spacepy.github.io/install_mac.html#install-mac-cdf)
+###### Shawn's steps:
+ - Download Mac binaries "CDF3_9_0-binary-signed.pkg" (from: https://spdf.gsfc.nasa.gov/pub/software/cdf/dist/latest-release/macosx/)
+ - 
 
 ### Ideas: 
 Similar to how Kamodo-CCMC has a few test lines to verify the installation:
