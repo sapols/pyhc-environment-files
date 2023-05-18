@@ -17,6 +17,12 @@ Install CDF C library (see: https://spacepy.github.io/pycdf.html / https://space
  - Install via the installer
  - Uncomment `import ocbpy` in `import-test.py` because it now works!
 
+#### Fixing wmm2015 & wmm2020 imports (currently commented-out):
+##### Problem: 
+"FileNotFoundError: CMake not available"
+##### Solution: 
+?
+
 ### Ideas: 
 Similar to how Kamodo-CCMC has a few test lines to verify the installation:
 
