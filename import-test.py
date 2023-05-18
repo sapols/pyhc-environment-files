@@ -44,7 +44,7 @@ import hapiclient
 import kamodo
 import plasmapy
 import pysat
-# import pyspedas
+import pyspedas
 import spacepy
 import sunpy
 
