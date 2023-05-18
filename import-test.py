@@ -15,7 +15,7 @@ import goesutils
 import hissw
 import igrf
 import iri2016
-# import irispy_lmsal
+import irispy
 import lowtran
 import mcalf
 import msise00
