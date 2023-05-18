@@ -8,7 +8,7 @@ Repo with files trying to generate one virtual Python environment that can impor
 3. `python3 import-test.py` 
 
 ### Notes:
-#### Fixing ocbpy:
+#### Fixing ocbpy import (currently commented-out):
 ##### Problem: 
 It's failing on trying to get SpacePy to load the CDF C library
 ##### Solution: 
