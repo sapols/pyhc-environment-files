@@ -15,7 +15,7 @@ import goesutils
 import hissw
 import igrf
 import iri2016
-# import irispy_lmsal
+import irispy
 import lowtran
 import mcalf
 import msise00
@@ -44,7 +44,7 @@ import hapiclient
 import kamodo
 import plasmapy
 import pysat
-# import pyspedas
+import pyspedas
 import spacepy
 import sunpy
 
