@@ -2,6 +2,11 @@
 
 Repo with files trying to generate one virtual Python environment that can import every PyHC package.
 
+## Files:
+1. `pyhc-requirements.txt`: All the package versions that the PyHC packages require
+2. `pyhc-packages-requirements.txt`: The PyHC packages
+3. `import-test.py`: A script that runs import statements for the PyHC packages before printing a success message
+
 ## Steps:
 1. `pip install -r pyhc-requirements.txt`
 2. `pip install -r pyhc-packages-requirements.txt`
