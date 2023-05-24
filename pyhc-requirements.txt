@@ -74,7 +74,7 @@ h5netcdf
 h5py>=3.2.1
 hapiclient>=0.2.2
 hatanaka
-heliopy>=0.12.0
+heliopy>=0.12.0,<1.0
 heliopy-multid
 html5lib>=0.999
 hydra-core==0.11.3
