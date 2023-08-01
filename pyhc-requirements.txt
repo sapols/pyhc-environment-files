@@ -71,7 +71,7 @@ gwcs>=0.15
 h5netcdf
 h5py>=3.2.1
 hatanaka
-heliopy>=0.12.0
+heliopy>=0.12.0,<1
 heliopy-multid
 html5lib>=0.999
 hydra-core==0.11.3
