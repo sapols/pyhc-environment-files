@@ -2,6 +2,11 @@
 
 Repo with files trying to generate one virtual Python environment that can import every PyHC package.
 
+## Files:
+1. `pyhc-requirements.txt`: All the package versions that the PyHC packages require
+2. `pyhc-packages-requirements.txt`: The PyHC packages
+3. `import-test.py`: A script that runs import statements for the PyHC packages before printing a success message
+
 ## Steps:
 1. `pip install -r pyhc-requirements.txt`
 2. `pip install -r pyhc-packages-requirements.txt`
@@ -33,6 +38,8 @@ Install CMake?
    - CCSDSPy (requirements already satisfied)
    - space-packet-parser (would install bitstring==4.0.2)
    - regularizePSF project (would install sep==1.2.1)
+   - lofarSun (would install python-casacore==3.5.2; requires [casacore](https://github.com/casacore/casacore) and [Python Boost](http://boostorg.github.io/python/doc/html/index.html) to be installed on the system)
+   - PyGS (would install ai.cdas==1.2.3)
 
 ### Ideas: 
 Similar to how Kamodo-CCMC has a few test lines to verify the installation:

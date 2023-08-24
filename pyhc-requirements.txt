@@ -70,7 +70,6 @@ gridaurora
 gwcs>=0.15
 h5netcdf
 h5py>=3.2.1
-hapiclient>=0.2.2
 hatanaka
 heliopy>=0.12.0,<1.0
 heliopy-multid
@@ -173,7 +172,6 @@ pyqtgraph>=0.11.1
 pyqtwebengine>=5.15.2
 pyqtwebengine-qt5>=5.15.0
 pyrsistent>=0.14.0,!=0.17.0,!=0.17.1,!=0.17.2
-pysat>=3.0.0
 pytest>=6
 python-dateutil>=2.8.2
 python-forge
@@ -197,8 +195,7 @@ soupsieve>1.2
 sqlalchemy
 sscws
 stack-data
-sunpy>=4.1.0,!=3.1.0
-sunraster>=0.3.0,<0.4.0
+# sunraster>=0.3.0,<0.4.0  # required by irispy-lmsal
 sympy==1.5.1
 tables>=3.4.4
 tenacity>=6.2.0
