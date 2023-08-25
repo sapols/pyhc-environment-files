@@ -1,0 +1,17 @@
+<Configuration>
+<VGpu>Default</VGpu>
+<Networking>Default</Networking>
+<MappedFolders>
+   <MappedFolder>
+     <HostFolder>C:\work\Codes\SPEDAS\PyHC\Downloads</HostFolder>
+     <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+   <MappedFolder>
+     <HostFolder>C:\work\Codes\SPEDAS\PyHC\pyhc-environment-files</HostFolder>
+     <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+</MappedFolders>
+<LogonCommand>
+   <Command>C:\users\WDAGUtilityAccount\Desktop\pyhc-environment-files\Sandbox\Sandbox_Startup_Script_Basic.cmd</Command>
+</LogonCommand>
+</Configuration>
