@@ -11,7 +11,7 @@ setx /M CDF_HELP %mydir%help
 setx /M CDF_LEAPSECONDSTABLE %mydir%CDFLeapSeconds.txt
 setx /M CLASSPATH %mydir%CDFToolsDriver.jar;%mydir%lib\\cdfjava.jar;%mydir%lib\\cdfml.jar;%mydir%lib\\cdfjson.jar;%mydir%lib\\cdfj.jar;%mydir%lib\\gson-2.8.6.jar;%mydir%lib\\javax.json-1.0.4.jar;.
 
-setx /M PATH %mydir%;%mydir%bin;%PATH%
+setx /M PATH %PATH%;%mydir%;%mydir%bin
 
 setx /M TERMINFO %mydir%lib\\terminfo
 setx /M JAVA_TOOL_OPTIONS "-Dfile.encoding=UTF8"

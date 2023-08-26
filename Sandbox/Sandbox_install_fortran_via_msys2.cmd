@@ -17,4 +17,4 @@ REM C:\msys64\usr\bin\bash -lc "pacman -Sy base-devel mingw-w64-x86_64-binutils 
 C:\msys64\usr\bin\bash -lc "pacman -Sy --noconfirm base-devel mingw-w64-x86_64-toolchain"
 
 REM Add installed folder to the path
-setx /M path "%path%;C:\msys64\mingw64\bin\"
+setx /M path C:\msys64\mingw64\bin\;%path%
