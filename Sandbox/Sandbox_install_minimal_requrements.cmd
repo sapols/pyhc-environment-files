@@ -5,10 +5,10 @@ REM Install Python
 %installpath%python-3.10.11-amd64.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
 
 REM Set Enviroment Variables for Python
-setx /M PATH "%PATH%;C:\Program Files\Python310"
+setx path "C:\Program Files\Python310;%path%" /M 
 
-@REM Install GIT (disabled)
-@REM %installpath%Git-2.42.0-64-bit.exe /VERYSILENT /NORESTART /NOCANCEL /SP- /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS /COMPONENTS="!icons,!ext,!assoc,!assoc_sh,windowsterminal"
+REM Install GIT
+%installpath%Git-2.42.0-64-bit.exe /SILENT /NOCANCEL /SP- /COMPONENTS="!icons,!ext,!assoc,!assoc_sh"
 
 REM Install "Desktop development with C++"
 %installpath%VC_redist.x64.exe /q /norestart
